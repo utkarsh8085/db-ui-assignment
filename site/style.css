@@ -23,7 +23,7 @@ table {
     margin: auto;
     left: auto;
     right: auto;
-    border: 1px solid grey;
+    border: 1px solid rgb(4, 19, 66);
 }
 
 tr:nth-child(even) {
@@ -38,7 +38,7 @@ td {
 th {
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(35, 8, 109);
 }
 td:nth-child(1) {
     text-align: center
@@ -46,4 +46,8 @@ td:nth-child(1) {
 
 .currency-sparkline {
     text-align: center;
+}
+
+.currency-pair-name {
+    text-transform: uppercase;
 }

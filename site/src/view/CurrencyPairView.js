@@ -18,7 +18,7 @@ export default class CurrencyPairView {
    */
   getStockRowNode() {
     if (this.stockRow) {
-      this.stockRowName.textContent = this.currencyPair.name.toUpperCase()
+      this.stockRowName.textContent = this.currencyPair.name
       this.stockRowBestBid.textContent = this.currencyPair.bestBid.toFixed(3)
       this.stockRowBestAsk.textContent = this.currencyPair.bestAsk.toFixed(3)
       this.stockRowLastChangeBestBid.textContent = this.currencyPair.lastChangeBid.toFixed(3)
@@ -27,7 +27,7 @@ export default class CurrencyPairView {
     }
     const tr = document.createElement('tr')
     const tdName = document.createElement('td')
-    tdName.textContent = this.currencyPair.name.toUpperCase()
+    tdName.textContent = this.currencyPair.name
     tdName.setAttribute('class', 'currency-pair-name')
     const tdBestBid = document.createElement('td')
     tdBestBid.textContent = this.currencyPair.bestBid.toFixed(3)
