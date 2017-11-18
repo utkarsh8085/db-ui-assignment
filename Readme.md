@@ -39,7 +39,7 @@ To run test,
 npm test
 ```
 
-Test framework is used is `mocha` and test runner is `karma` alongwith the `expect` assertion library. All test files are in `site/src` and the name ends with `.spec.js`.
+Test framework  used is `mocha` and test runner is `karma` alongwith the `expect` assertion library. All test files are in `site/src` and the name ends with `.spec.js`.
 
 
 Libraries/frameworks that can be used for better performance.
@@ -49,8 +49,7 @@ ReactJs allows to create reusable components with low coupling and makes maintai
 In this project ReactJs can be used to create a reusable Table components that takes the data via props and renders the table.Updating the state will not render the whole table again it renders the part of the DOM which was changed/updated. 
 It increases the performance.
 
-Build a very similar to this using React.js which you may also find i my Git repo here [react-stocks-ticker](https://github.com/utkarsh8085/react-stocks-ticker) or you may directly check its deployed version here [Stock Ticker](http://utkarsh8085.github.io/stocks-ticker/#/). Make sure to allow "mixed content" in your browser in order to perfectly load the deployed URL as the data coming from the WebSocket server is not in https.
-
+Build an app, very similar to this using React.js which you may also find it my Git repo here [react-stocks-ticker](https://github.com/utkarsh8085/react-stocks-ticker) or you may directly check its deployed version here [Stock Ticker](http://utkarsh8085.github.io/stocks-ticker/#/). Make sure to allow "mixed content" in your browser in order to perfectly load the deployed URL as the data coming from the WebSocket server is not in https.
  
 
 Contact details
